@@ -1,0 +1,110 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+#titulo{
+  text-align:center;
+  background-color:blue;
+  color: White;
+  padding: 20px;
+    
+}
+nav ul{
+    background-color:#d5dfff;
+    color: black;
+    width: 100%;
+    list-style-type:none;
+    text-align:center;
+}
+nav li{
+  display:inline-flex;
+}
+nav a{
+    text-decoration:none;
+    color: black;
+    padding:10px;
+    width:100px;
+}
+nav li:hover{
+    background-color:blue ;
+}
+img{
+    width:200px;
+    height:200px;
+    
+}
+.slider{
+    width:100%;
+    height:200px;
+    overflow:hidden;
+}
+.slider ol{
+    display:flex;
+    animation:cambio 15s infinite alternate linear;
+    width:600%;
+}
+.slider li{
+    width:100%;
+    list-style:none;
+}
+.slider img{
+    width: 200px;
+    height:200px% ;
+}
+@keyframes cambio{
+ 0%{margin-left:0% ;}
+    20%{margin-left:0% ;}
+    
+    25%{margin-left:-100% ;}
+    45%{margin-left:-100% ;}
+    
+    50%{margin-left:-200% ;}
+    70%{margin-left:-200%;}
+    
+    75%{margin-left:-300%;}
+    100%{margin-left:-300%;}
+    
+}
+
+.p{
+   margin-top:10px ;
+    display: flex;
+    background-color: blue;
+    padding: 27px;
+    color: #d5dfff;
+}
+.ir{
+    margin-top: 0px;
+    color: blueviolet;
+    padding-left: 20px ;
+}
+.p{
+    margin-top:10px ;
+    display: flex;
+    background-color: blue;
+    padding: 27px;
+    color: #d5dfff;  
+}
+.p{
+    margin-top:10px ;
+    display: flex;
+    background-color: blue;
+    padding: 27px;
+    color: #d5dfff;  
+}
+ /*Estilos de pie de pagina*/
+ footer{
+
+position: relative;
+margin: top -10px;
+width:100%;
+padding: 50px;
+clear: both;
+background: blue;
+text-align: center;
+color: azure;
+ }
+ .ft{
+    display: flex;
+    margin-right: auto;
+ }
